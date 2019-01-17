@@ -1,7 +1,7 @@
 
 module.exports = {
     SERVER:{
-        port:1989,
+        port: process.env.PORT || 5000,
         static_url: "static",
         media_url: "media",
         cors:{
@@ -13,19 +13,19 @@ module.exports = {
     },
     DATABASE:{
         development:{
-            name:"hackathon",
-            user:"hackathon",
-            password:"hackathon",
-            port:"33769",
-            host:"ds233769.mlab.com",
+            name:"currency",
+            user:"currency",
+            password:"currency2018",
+            port:"53814",
+            host:"ds153814.mlab.com",
             provider:"mlab"
         },
         producction:{
-            name:"hackathon-prod",
-            user:"admin",
-            password:"admin",
-            port:"61890",
-            host:"ds161890.mlab.com",
+            name:"currency",
+            user:"currency",
+            password:"currency2018",
+            port:"53814",
+            host:"ds153814.mlab.com",
             provider:"mlab"
         }
     }
