@@ -1,7 +1,7 @@
 
 module.exports = {
     SERVER:{
-        port: process.env.PORT || 5000,
+        port: process.env.PORT || 12001,
         static_url: "static",
         media_url: "media",
         cors:{
